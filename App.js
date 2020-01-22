@@ -11,7 +11,7 @@ export default function App() {
   // get data from facebook using token
 async function logInFB() {
   try {
-    await Facebook.initializeAsync('1081006212230631');
+    await Facebook.initializeAsync('YOUR_APP_ID');
     const {
       type,
       token,
